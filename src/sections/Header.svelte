@@ -66,7 +66,7 @@
     <div class="pb-1 animate__animated animate__fadeIn">
       <h1 class="text-5xl font-semibold font-fira">CosmicSail</h1>
       <p class="text-lg">
-        RC Boats brought to the<br/>
+        RC Vehicles brought to the<br/>
         <b>next level.</b>
       </p>
     </div>
