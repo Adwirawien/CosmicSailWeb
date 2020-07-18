@@ -4,8 +4,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
-    "lint": "eslint ./src"
+    "start": "sirv public -H 0.0.0.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
@@ -30,19 +29,10 @@
     "sass": "^1.26.7",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.7.4",
+    "svelte-scrollto": "^0.2.0",
     "tailwindcss": "^1.4.6"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.svelte": [
-      "npm run lint"
-    ]
   }
 }
