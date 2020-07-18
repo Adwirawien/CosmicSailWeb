@@ -1,7 +1,10 @@
+<script>
+  import Mockup from "../../components/Mockup.svelte";
+</script>
 <section id="control" class="min-h-screen flex justify-center text-gray-300 font-fira">
   <div class="p-5 py-10 my-auto">
     <div class="sm:flex">
-      <img style="height:10%;width:225px;" class="mx-auto sm:mx-10 my-5" src="/control_mockup.png" alt="mockup"/>
+      <Mockup src="/control_mockup.png" earlyPreview={true}/>
       <div class="my-auto max-w-md">
         <h1 class="font-semibold mb-4">
           <ion-icon class="text-xl -mb-1" name="game-controller"></ion-icon>
