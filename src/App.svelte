@@ -6,6 +6,8 @@
   import Control from "./sections/features/Control.svelte";
   import Autopilot from "./sections/features/Autopilot.svelte";
   import Configuration from "./sections/features/Configuration.svelte";
+  import Contact from "./sections/Contact.svelte";
+  import ImpressPrivacy from "./sections/ImpressPrivacy.svelte";
 </script>
 
 <Tailwindcss/>
@@ -18,4 +20,6 @@
     <Autopilot/>
     <Configuration/>
   </div>
+  <Contact/>
+  <ImpressPrivacy/>
 </main>
