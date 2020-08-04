@@ -10,5 +10,15 @@
     .font-fira { font-family: 'Fira Code VF', monospace; }
   }
 
+  ::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #0064e0;
+  }
+
+  ::selection {
+    color: #ffffff;
+    background: #0064e0;
+  }
+
   @tailwind utilities;
 </style>
