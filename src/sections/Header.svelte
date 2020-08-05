@@ -64,9 +64,10 @@
       <DownArrow/>
     </a>
     <div class="pb-1 animate__animated animate__fadeIn">
-      <h1 class="text-5xl font-semibold font-fira">CosmicSail</h1>
+      <a href="https://www.producthunt.com/posts/cosmicsail?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cosmicsail" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=227987&theme=light" alt="CosmicSail - RC Boats extended by an autopilot and smartphone control | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+      <h1 class="text-5xl mt-2 font-semibold font-fira">CosmicSail</h1>
       <p class="text-lg">
-        RC Vehicles brought to the<br/>
+        RC Boats brought to the<br/>
         <b>next level.</b>
       </p>
     </div>
