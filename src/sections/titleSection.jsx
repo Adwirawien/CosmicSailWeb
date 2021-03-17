@@ -7,7 +7,7 @@ export default function TitleSection({ images, title, content, cta }) {
     let i = image.index + 1 >= images.length ? 0 : image.index + 1;
     setImage({
       index: i,
-      url: images[i],
+      ...images[i]
     });
     console.log("image change!");
   };
@@ -34,7 +34,7 @@ export default function TitleSection({ images, title, content, cta }) {
           className="leading-snug"
           dangerouslySetInnerHTML={{ __html: content }}
         ></p>
-        {cta && <button className="py-2 mt-4 font-semibold tracking-wide text-white duration-700 bg-no-repeat rounded-lg hover:shadow-md px-7 bg-position-change bg-violet-600 bg-gradient-to-l from-orange-500 via-red-600 to-violet-600">{cta} {"→"}</button>}
+        {cta && <button className={"py-2 mt-4 font-semibold tracking-wide text-white bg-no-repeat rounded select-none hover:shadow-lg px-7 " + image.bgColor + " bg-position-change bg-gradient-to-r " + image.from + " " + image.to}>{cta} {"→"}</button>}
       </div>
     </div>
   );

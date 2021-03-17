@@ -4,6 +4,10 @@
 
 .bg-position-change {
   background-position-x: 175px;
+  -webkit-transition: background-position 200ms ease-out, box-shadow 200ms ease-out;
+  -moz-transition: background-position 200ms ease-out, box-shadow 200ms ease-out;
+  -o-transition: background-position 200ms ease-out, box-shadow 200ms ease-out;
+  transition: background-position 200ms ease-out, box-shadow 200ms ease-out;
 }
 
 .bg-position-change:hover {
